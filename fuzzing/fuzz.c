@@ -1,3 +1,4 @@
+#ifndef ARDUINO
 #define MINIMP3_IMPLEMENTATION
 #include "../minimp3.h"
 #include <stdio.h>
@@ -26,3 +27,5 @@ int main()
 
     return 0;
 }
+
+#endif
