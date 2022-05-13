@@ -1,9 +1,9 @@
 # arduino-minimp3
 
-Minimalistic, single-header library for decoding MP3. minimp3 is designed to be
-small, fast (with SSE and NEON support), and accurate (ISO conformant). Further information can be found in the [oringal readme](README.original).
+Minimalistic, single-header library for decoding MP3. minimp3 is designed to be small, fast (with SSE and NEON support), and accurate (ISO conformant). Further information can be found in the [oringal readme](README.original).
 
-I have extended the project so that it can be used as Arduino library.
+I have extended the project, so that it can be used as Arduino library. The result however is not very convincing: The decoder is too slow (e.g. on an ESP32) to decode any audio with a rate >= 32000 samples per second and the audio quality is quite poor. 
+
 
 ### Installation in Arduino
 
