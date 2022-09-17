@@ -6,3 +6,4 @@ minimp3_arm
 *.gcda
 *.gcno
 *.gcov
+build/
